@@ -1,0 +1,17 @@
+{
+  "name": "test-theme",
+  "version": "1.0.0",
+  "description": "## Create a Shopify account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwind -i ./src/tailwind.css -o ./assets/application.css --watch",
+    "start": "shopify theme dev --store davfru-theme-1"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
